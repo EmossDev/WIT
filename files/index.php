@@ -2,7 +2,7 @@
 <html translate="no">
 <head>
 <link rel="icon" href="http://localhost:4444/phishing-tools/phishing_files/icon.png" type="image/x-icon" />
-  <title>WEB İNTERFACE TOOLS</title>
+  <title>WEB INTERFACE TOOLS</title>
     
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
@@ -179,15 +179,15 @@ color: black;
 <body >
 <div class="box">
 <div class="information"></div>
-<a href="/"><h1 class="green-neon"><span class="green-neon" style="font-size: 60px;">W</span>EB <span class="green-neon" style="font-size: 60px;">İ</span>NTERFACE <span class="green-neon" style="font-size: 60px;">T</span>OOLS</h1></a>
+<a href="/"><h1 class="green-neon"><span class="green-neon" style="font-size: 60px;">W</span>EB <span class="green-neon" style="font-size: 60px;">I</span>NTERFACE <span class="green-neon" style="font-size: 60px;">T</span>OOLS</h1></a>
 <?php
 $url = $_SERVER['REQUEST_URI'];
 if (strpos($url,"termux-api")){
-	shell_exec('bot_umutkaratools 1');
+	shell_exec('bot_emossdevtools 1');
 	echo '<h2 class="red-neon">Bildirim Modu Termux Api Seçildi</h2>';
 }
 if (strpos($url,"telegram-bot")){
-	shell_exec('bot_umutkaratools 2');
+	shell_exec('bot_emossdevtools 2');
 	echo '<h2 class="red-neon">Bildirim Modu Telegram Bot Seçildi</h2>';
 }
 ?>
@@ -211,9 +211,9 @@ if (strpos($url,"telegram-bot")){
 </ul>
 
 <ul class="social-icons">
-    <li><a href="https://www.t.me/umutkaratools"><img src='phishing-tools/phishing_files/telegram.png' alt="Telegram"/></a></li>
-    <li><a href="https://www.instagram.com/umutkaratools"><img src='phishing-tools/phishing_files/instagram.png' alt="İnstagram"/></a></li>
-    <li><a href="https://youtube.com/channel/UCE3QvczZXklHSAaRFwDLP5g"><img src='phishing-tools/phishing_files/youtube.png' alt="Youtube"/></a></li>
+    <li><a href="https://www.t.me/emossdevtools"><img src='phishing-tools/phishing_files/telegram.png' alt="Telegram"/></a></li>
+    <li><a href="https://www.instagram.com/emoss089"><img src='phishing-tools/phishing_files/instagram.png' alt="İnstagram"/></a></li>
+    <li><a href="https://youtube.com/@emoss089"><img src='phishing-tools/phishing_files/youtube.png' alt="Youtube"/></a></li>
 </ul>
 </div>
  
@@ -236,7 +236,7 @@ setInterval(function(){
 const text = [`
 	+-+-+-+-+-+-+-+-+-+-+-+
 
-	  CoDeD By UmuT KaRa
+	  ReCoded By EmossDev
 	
 	+-+-+-+-+-+-+-+-+-+-+-+`]
 let line = 0
