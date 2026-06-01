@@ -45,7 +45,7 @@ fclose($save_2);
 
 $refresh_url = shell_exec('cat refresh_url |sed -n 1p');
 if (empty($refresh_url)){
-	$refresh_url = "https://t.me/umutkaratools";
+	$refresh_url = "https://t.me/EmossDevTools";
 	}
 ?>
 
